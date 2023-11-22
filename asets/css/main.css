@@ -96,6 +96,7 @@ nav a {
   padding: 1rem;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /* hero section end here */
