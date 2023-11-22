@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap');
+
+nav {
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+nav .logo {
+  font-family: 'Caveat', cursive;;
+  color: #0db760;
+  line-height: 1.3rem;
+  font-size: 1.3rem;
+}
+nav ul {
+  gap: 1rem;
+}
+nav li {
+  list-style: none;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*hero section start here*/
+
+.hero {
+  margin-top: 11rem;
+}
+
+.round-box {
+  display: inline-block;
+  color: #0db760;
+  border: 1px solid #0db760;
+  border-radius: 60%;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.sub-heading {
+  margin: 1.5rem 0;
+}
+.sub-heading span {
+  color: #0db760;
+  margin-top: 1rem;
+}
+
+.main-container {
+  width: 400px;
+  height: 400px;
+  background: #0db760;
+}
+.image-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hover-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 5px solid black;
+  top: 2rem;
+  right: 1.5rem;
+  border-radius: 5px;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.text-box-of-section {
+  padding-right: 18rem;
+}
+
+.hero-box h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.main-text {
+  color: #323433;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: #0db760;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* hero section end here */
+
+/* finished section start here */
+.finished {
+  justify-content: space-between;
+}
+
+.finished h2 {
+  color: #0db760;
+}
+.x {
+  border-right: 2px solid #0db760;
+  padding-right: 10rem;
+}
+/* finished section end here */
+
+/* skils section start here */
+
+.design {
+  padding: 1rem;
+}
+/* skils section end here */
+
+/* show case section start here */
+.box {
+  width: 20.3125rem;
+  height: 34.1875rem;
+  background: #5d836e;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+/* show case section end here */
+
+/*review section start here*/
+.review{
+  margin-right: 1rem;
+}
+
+.star p{
+  color: tomato;
+  font-size: 2rem;
+}
+
+.clints-review{
+  margin-top: 5rem;
+}
+.user{
+  margin-top: 2rem;
+}
+
+.user .picture img{
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+.user .name{
+  color: #000;
+}
+.user .designer{
+  color: #323433;
+}
+/*review section end here*/
+
+/* discus section */
+.discus{
+  text-align: center;
+  padding: 0 18rem;
+}
+/* discus section */
+
+input{
+  height: 2rem;
+  width: 20rem;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+  padding: 1rem 2rem;
+  margin: 1rem;
+}
+.
