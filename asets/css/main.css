@@ -24,6 +24,10 @@ nav li:hover {
 nav a {
   text-decoration: none;
   color: #000;
+  transition: all 0.5s;
+}
+nav a:hover{
+  color: #098846;
 }
 
 /*hero section start here*/
@@ -74,6 +78,11 @@ nav a {
   height: 100%;
   width: 100%;
   position: absolute;
+  transition: all 1s;
+}
+.image-container>img:hover{
+  scale: 113.5%;
+  /* right: 1.1rem; */
 }
 
 .text-box-of-section {
@@ -97,6 +106,11 @@ nav a {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.btn:hover{
+  scale: 105%;
+  background: #098846;
 }
 
 /* hero section end here */
@@ -112,6 +126,10 @@ nav a {
 .x {
   border-right: 2px solid #0db760;
   padding-right: 10rem;
+  transition: all 0.5s;
+}
+.x:hover{
+  scale: 110%;
 }
 /* finished section end here */
 
@@ -119,6 +137,12 @@ nav a {
 
 .design {
   padding: 1rem;
+  transition: all 0.5s;
+}
+.design:hover{
+  scale: 110%;
+  box-shadow: 2px 2px 5px;
+  border-radius: 10px;
 }
 /* skils section end here */
 
@@ -136,6 +160,13 @@ nav a {
 /*review section start here*/
 .review{
   margin-right: 1rem;
+  transition: all 0.5s;
+}
+.review:hover{
+  scale: 110%;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .star p{
@@ -178,7 +209,12 @@ input{
   background: #ddd;
   border-radius: 5px;
   outline: none;
+  border: none;
   padding: 1rem 2rem;
   margin: 1rem;
+  transition:  all 0.2s;
 }
-.
+input:focus{
+  outline: 2px solid #098846;
+}
+
